@@ -5,7 +5,7 @@
   <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
     <div class="col-md-6 p-5 mt-lg-5 px-3 text-center">
 
-      <h1 class="display-5 animated fadeIn mb-3 fw-bold mt-4"> <span class="fs-1">...Where Media Gets Paid,<br></span><span class="text-primary fs-1">and Advertisers Get Results...
+      <h1 class="display-5 animated fadeIn mb-3 fw-bold mt-4"> <span class="fs-1">...Where Media Get Paid,<br></span><span class="text-primary fs-1">and Advertisers Get Results...
         </span></h1>
       {{-- <h4 class="animated fadeIn mb-4 pb-2"></h4> --}}
       <div class="d-flex justify-content-center">
