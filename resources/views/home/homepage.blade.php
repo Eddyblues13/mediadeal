@@ -5,7 +5,7 @@
   <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
     <div class="col-md-6 p-5 mt-lg-5 px-3 text-center">
 
-      <h1 class="display-5 animated fadeIn mb-3 fw-bold mt-4"> <span class="fs-1">...Where Media Gets Paid,<br></span><span class="text-primary fs-1">and Advertisers Get Results...
+      <h1 class="display-5 animated fadeIn mb-3 fw-bold mt-4"> <span class="fs-1">...Where Media Get Paid,<br></span><span class="text-primary fs-1">and Advertisers Get Results...
         </span></h1>
       {{-- <h4 class="animated fadeIn mb-4 pb-2"></h4> --}}
       <div class="d-flex justify-content-center">
@@ -81,7 +81,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="img/marketer.jpg">
+                        <img class="img-fluid w-100" src="img/tailor.jpg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"> 

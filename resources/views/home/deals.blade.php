@@ -24,36 +24,42 @@
                 <div class="row g-4">
                     <div class="col-md-8 mx-auto">
                         <div class="wow fadeInUp" data-wow-delay="0.5s">
-                        <form>
+                            @if(session('success'))
+                                <div class="alert alert-success text-center">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                        <form action="{{ route('support.request.send') }}" method="POST">
+                            @csrf
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control"  name="name" id="name" placeholder="Your Name">
+                                            <input type="text" class="form-control"  name="name" id="name" placeholder="Your Name" required>
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required>
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required>
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating deal-select">
-                                            <select class="form-select">
-                                              <option>-- Support-Type --</option>
-                                              <option>Jingle Production</option>
-                                              <option>Content Creation</option>
-                                              <option>Campaign Planning Assistance</option>
-                                              <option>Payment Support</option>
-                                              <option>⁠Customer Support</option>
-                                              <option>Dispute Resolution</option>
+                                            <select class="form-select" name="support_type" required>
+                                              <option value="">-- Support-Type --</option>
+                                              <option value="1">Jingle Production</option>
+                                              <option value="2">Content Creation</option>
+                                              <option value="3">Campaign Planning Assistance</option>
+                                              <option value="4">Payment Support</option>
+                                              <option value="5">⁠Customer Support</option>
+                                              <option value="6">Dispute Resolution</option>
                                             </select>
                                         </div>
                                     </div>
