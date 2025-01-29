@@ -28,7 +28,8 @@ class SupportRequestMail extends Mailable
      */
     public function build()
     {
-        return $this->from($this->data['email'])
+        return $this->from('noreply@mediadeal.ng')
+                    ->replyTo($this->data['email'])
                     ->subject($this->data['subject'])
                     ->view('emails.support_request') // The view for the email body
                     ->with('data', $this->data);

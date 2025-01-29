@@ -29,7 +29,8 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from($this->data['email'])
+        return $this->from('noreply@mediadeal.ng')
+                    ->replyTo($this->data['email'])  
                     ->subject($this->data['subject'])
                     ->view('emails.contact')
                     ->with('data', $this->data);
