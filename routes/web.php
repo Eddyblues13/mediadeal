@@ -7,6 +7,8 @@ use App\Http\Controllers\MarketerController;
 use App\Http\Controllers\AdvertiserController;
 use App\Http\Controllers\Auth\CustomAuthController;
 use App\Http\Controllers\MediaOrganizationController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SupportController;
 
 // Public Routes
 Route::get('/', function () {
@@ -66,6 +68,11 @@ Route::get('/manage-refund', function () {
 Route::get('/station-details', function () {
     return view('advertiser.station-details');
 });
+
+//contact post routes
+Route::post('/send-message', [ContactController::class, 'sendMessage'])->name('contact.send');
+Route::post('/support-request', [SupportController::class, 'sendSupportRequest'])->name('support.request.send');
+
 
 // Media Public Routes
 Route::get('/media', function () {
