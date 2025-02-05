@@ -12,7 +12,7 @@
           </nav>
       </div>
       <div class="col-md-6 animated fadeIn">
-          <img class="img-fluid" src="img/mdterms.jpg" alt="">
+          <img class="img-fluid" src="img/faq.jpg" alt="faq-image">
       </div>
   </div>
 </div>
@@ -116,9 +116,6 @@
                   <p>If no refund request or dispute is raised by the advertiser within the review period, the media organization confirms that the campaign has been successfully completed and request payment from Media Deal.</p>
                   <h6><i class="fa fa-check text-primary"></i>Payment to Media Organization:</h6>
                   <p>Media Deal releases the payment to the media organization, minus any applicable fees (e.g., Media Deal's 5% platform fee, and/or commission).</p>
-                  <h6><i class="fa fa-check text-primary"></i>Commission to Marketer:</h6>
-                  <p>At the same time, the marketer who facilitated the deal receives their commission, as approved and indicated by the Media Organization.</p>
-
                   <h5>Refund Handling (If Applicable):</h5>
                   <h6><i class="fa fa-check text-primary"></i>Refund Requests:</h6>
                   <p>If the advertiser requests a refund due to non-compliance, incorrect airing, or other valid reasons, the media organization will review the request, and may decide to approve or decline the request.</p>
@@ -156,7 +153,11 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
 
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
@@ -182,11 +183,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThiirteen" aria-expanded="false" aria-controls="collapseThiirteen">
@@ -195,7 +191,7 @@
             </h2>
             <div id="collapseThiirteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                In the future, Media Deal plans to expand to other media types, such as social media, streaming platforms, podcasts, and vodcasts. The platform will also open its marketplace to creatives like scriptwriters, animators, and voice-over artists.
+                In the future, Media Deal plans to allow marketers buy and sell Ad slots to earn commission The platform will also open its marketplace to creatives like scriptwriters, animators, and voice-over artists.
               </div>
             </div>
           </div>
@@ -208,20 +204,7 @@
             </h2>
             <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                Media organizations that are duly registered with the CAC (Corporate Affairs Commission) and licensed by the NBC (National Broadcasting Commission) for TV and radio.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                Who can register as a marketer?
-              </button>
-            </h2>
-            <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-light">
-                Marketers working with a media organization and marketers with an APCON (Advertising Practitioners Council of Nigeria) certificate can register under the marketer category
+                Media organizations that are duly registered with the CAC (Corporate Affairs Commission) and licensed by the NBC (National Broadcasting Commission) for TV and radio, digital content creators and influencers.
               </div>
             </div>
           </div>
@@ -241,39 +224,13 @@
 
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                Who can earn commission on Media Deal?
-              </button>
-            </h2>
-            <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-light">
-                Those who register as marketers can earn commissions.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                How much commission can I earn as a marketer?
-              </button>
-            </h2>
-            <div id="collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-light">
-                	Marketers can earn a commission of 10-15%, depending on the Ad volume and approval from the Media Organization.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
               <button class="accordion-button collapsed fs-5 px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
                 Are there hidden charges on Media Deal?
               </button>
             </h2>
             <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                	No hidden charges. However, Media Deal deducts 5% from any transaction made through its payment system to cover system maintenance and payment processing.
+                There are no hidden charges. However, Media Deal deducts VAT and 5% commission from transactions to cover system maintenance and payment processing.
               </div>
             </div>
           </div>
@@ -299,7 +256,7 @@
             </h2>
             <div id="collapseTwentyOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body bg-light">
-                	You can negotiate a discount of up to 40%, depending on the volume, and how much your chosen media organization is willing to offer.
+                Ad price discounts vary from one media organization to another. Simply use the 'Send Message' button on the profile of your selected media to request a discount and negotiate directly with them.
             </div>
           </div>
         </div>
