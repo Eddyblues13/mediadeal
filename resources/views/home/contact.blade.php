@@ -8,7 +8,7 @@
                     </nav>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="img/equipment.jpg" alt="">
+                    <img class="img-fluid" src="img/contact-img.jpg" alt="">
                 </div>
             </div>
         </div>
