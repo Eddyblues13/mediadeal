@@ -48,6 +48,14 @@ Route::get('/deal-support', function () {
     return view('home.deals');
 });
 
+Route::get('/radio', function () {
+    return view('home.radio');
+});
+
+Route::get('/tv', function () {
+    return view('home.tv');
+});
+
 // Advertiser Public Routes
 Route::get('/advertiser', function () {
     return view('advertiser.homepage');
