@@ -190,6 +190,7 @@
                     <img class="img-fluid w-100 rounded" src="assets/images/woman-seller.jpg">
                 </div>
             </div>
+            
             <div class="col-lg-6 wow fadeIn" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"> 
                 <div class="px-5">
                     <p class="mb-4 text-dark"><span class="text-primary fw-bolder"><i></i></span><i>"Media Deal made it easy for me to connect with the right radio station. Everything went smoothly, and my business started getting plenty of calls and messages. Media Deal na real lifesaver!”</i> </p>
