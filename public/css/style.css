@@ -6,12 +6,11 @@
     --dark: #0E2E50;
 }
 
-/* :root {
-    --primary: #513252;
-    --secondary: #7A4069;
-    --light: #CA4E79;
-    --dark: #FFC18E;
-} */
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 .back-to-top {
     position: fixed;
@@ -531,13 +530,6 @@
   .bg-light-zinc {
     background-color: #495057;
   }
-  .radio-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #e9ecef;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
   .radio-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -567,7 +559,6 @@
     margin-right: 0.25rem;
   }
   .newsletter-section {
-    background-color: #4338ca;
     color: white;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -626,7 +617,7 @@
     margin: 1.5rem 0;
   }
   .load-more-btn {
-    background-color: #212529;
+    font-style: italic;
     color: white;
     padding: 0.5rem 2rem;
     transition: all 0.3s ease;
@@ -682,6 +673,12 @@
     border: 2px solid #dee2e6;
     border-right: none;
   }
+
+  .search-input::placeholder {
+    height: 50px;
+    text-align: center;
+
+  }
   
   .search-icon-position {
     position: absolute;
@@ -704,3 +701,10 @@
     background-color: #0b5ed7;
   }
 
+  .radio-card{
+    border: none;
+    border-style: none;
+    background-color: #e9ecef;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
