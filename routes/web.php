@@ -48,12 +48,15 @@ Route::get('/deal-support', function () {
     return view('home.deals');
 });
 
-Route::get('/radio', function () {
+Route::get('/radio-stations', function () {
     return view('home.radio');
 });
 
-Route::get('/tv', function () {
+Route::get('/tv-stations', function () {
     return view('home.tv');
+});
+Route::get('/online-influencers', function () {
+    return view('home.online');
 });
 
 // Advertiser Public Routes

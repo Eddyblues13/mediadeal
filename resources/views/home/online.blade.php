@@ -3,8 +3,8 @@
   <div class="container position-relative py-2">
     <div class="row py-5">
       <div class="bg-dark-zinc text-white text-center">
-        <h1 class="fs-4 fw-semibold mb-0">Deal directly with your favorite TV station!</h1>
-        <p class="small text-light mb-0">Your funds will be securely held until your Ad is aired..</p>
+        <h1 class="fs-4 fw-semibold mb-0">Deal directly with your favorite content creators and influencers!</h1>
+        <p class="small text-light mb-0">Your funds will be securely held until your ad is published.</p>
       </div>
     </div>
     <div class="row d-flex flex-wrap justify-content-center step-row">
@@ -16,7 +16,7 @@
         <div class="how-it-works-block">
           <div class="d-flex align-items-start">
             <span class="step-number">1.</span>
-            <p class="mb-0"><span class="fw-bold">Search & Select</span> your preferred TV station.</p>
+            <p class="mb-0"><span class="fw-bold">Search & Select</span> your preferred brand or influencer.</p>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
         <div class="how-it-works-block">
           <div class="d-flex align-items-start">
             <span class="step-number">2.</span>
-            <p class="mb-0">Click <span class="fw-bold">"View Details"</span> to see ad rates and vital information.</p>
+            <p class="mb-0">Click <span class="fw-bold">"View Details"</span> to learn more about the selected brand.</p>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@
         <div class="how-it-works-block">
           <div class="d-flex align-items-start">
             <span class="step-number">3.</span>
-            <p class="mb-0">Send your Ad details and click <span class="fw-bold">"Send Message"</span> to negotiate discount.</p>
+            <p class="mb-0">"Send Message"  <span class="fw-bold">"Send Message"</span> to request additional info, Ad rate, or negotiate discount. </p>
           </div>
         </div>
       </div>
@@ -44,18 +44,10 @@
           </div>
         </div>
       </div>
-      <div class="col" data-aos="fade-up" data-aos-delay="200">
-        <div class="how-it-works-block">
-          <div class="d-flex align-items-start">
-            <span class="step-number">5.</span>
-            <p class="mb-0"><span class="fw-bold">Request compliance</span> to get proof of broadcast.</p>
-          </div>
-        </div>
-      </div>
       <div class="col" data-aos="fade-up" data-aos-delay="250">
         <div class="how-it-works-block">
           <div class="d-flex align-items-start">
-            <span class="step-number">6.</span>
+            <span class="step-number">5.</span>
             <p class="mb-0"><span class="fw-bold">Request refund</span> if unsatisfied.</p>
           </div>
         </div>
@@ -95,8 +87,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>NDTV</h5>
-          <p class="card-text">You can aire your Ad easily with NDTV. We are always here for you.</p>
+          <h5>Andy</h5>
+          <p class="card-text">You can place your Ad easily with Andy. We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -105,8 +97,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>Ray TV</h5>
-          <p class="card-text">You can aire your Ad easily with Ray TV. We are always here for you.</p>
+          <h5>Ray</h5>
+          <p class="card-text">You can place your Ad easily with Ray . We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -115,8 +107,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>Emerald TV</h5>
-          <p class="card-text">You can aire your Ad easily with Emerald TV. We are always here for you.</p>
+          <h5>Emerald </h5>
+          <p class="card-text">You can place your Ad easily with Emerald . We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -127,8 +119,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>AIT</h5>
-          <p class="card-text">You can aire your Ad easily with AIT. We are always here for you.</p>
+          <h5>Nathi</h5>
+          <p class="card-text">You can place your Ad easily with Nathi. We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -137,8 +129,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>Makanaki TV</h5>
-          <p class="card-text">You can aire your Ad easily with Makanaki TV. We are always here for you.</p>
+          <h5>D'Eleven</h5>
+          <p class="card-text">You can place your Ad easily with D'Eleven. We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -147,8 +139,8 @@
       <div class="card radio-card p-3" style="width: 21rem;">
         <img src="{{ asset('assets/images/radio-station.jpg') }}" class="card-img-top rounded" alt="...">
         <div class="card-body">
-          <h5>Channels TV</h5>
-          <p class="card-text">Channels TV</p>
+          <h5>Dayo</h5>
+          <p class="card-text">You can place your Ad easily with Dayo. We are always here for you.</p>
         </div>
       </div>
     </div>
@@ -167,9 +159,9 @@
   <div class="container newsletter-section bg-dark mx-auto" data-aos="fade-up">
     <div class="row align-items-center">
       <div class="col-md-7 mb-2 px-5">
-        <h3 class="h5 mb-2">Can't find your favorite TV?</h3>
+        <h3 class="h5 mb-2">Can't find your favorite brand?</h3>
         <p class="small mb-0">Subscribe to our newsletter to get update as we add
-          more TV stations, announce promo offers, and giveaways.</p>
+          more brands, announce promo offers, and giveaways.</p>
       </div>
       <div class="col-md-5 px-5">
         <div class="d-flex gap-2">
@@ -193,7 +185,7 @@
             
             <div class="col-lg-6 wow fadeIn" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"> 
                 <div class="px-5">
-                    <p class="mb-4 text-dark"><span class="text-primary fw-bolder"><i></i></span><i>"Media Deal made it easy for me to connect with the right TV station. Everything went smoothly, and my business started getting plenty of calls and messages. Media Deal na real lifesaver!”</i> </p>
+                    <p class="mb-4 text-dark"><span class="text-primary fw-bolder"><i></i></span><i>"Media Deal made it easy for me to connect with the right influencer. Everything went smoothly, and my business started getting plenty of calls and messages. Media Deal na real lifesaver!”</i> </p>
                         <div class="d-flex justify-content-center">
                             <a href="{{route('register')}}" class="btn animate-pulse btn-dark py-2 px-5 me-3 my-3 text-primary animated fadeIn fw-bold">Try Us!</a>
                         </div>
