@@ -206,8 +206,8 @@
 
 <section class="service position-relative overflow-hidden py-2">
   <div class="budget-section px-2" data-aos="fade-up" data-aos-delay="200">
-    <h3 class="h5 mb-3">Can't comply with your Ad budget?</h3>
-    <p class="mb-4">If you need to secure your wish-digit production, content creation, campaign planning, or ADCON approval, click 'Deal Support'.</p>
+    <h3 class="h5 mb-3">Don’t gamble with your Ad budget!</h3>
+    <p class="mb-4">If you need us to assist you with jingle production, content creation, campaign planning, or APCON approval, click ‘Deal Support’</p>
     <button class="btn btn-dark px-4 py-2 animate-pulse text-primary fw-bold">Deal Support</button>
   </div>
 </section>
